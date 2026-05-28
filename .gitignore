@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
+*.token
+kaggle.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datasets
+datasets/
+data/
+raw/
+processed/
+
+# Model artifacts
+checkpoints/*.joblib
+checkpoints/*.pkl
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.onnx
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Logs
+*.log

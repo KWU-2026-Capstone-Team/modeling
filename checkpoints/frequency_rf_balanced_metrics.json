@@ -1,0 +1,71 @@
+{
+  "feature_columns": [
+    "dct_high_energy_ratio",
+    "dct_mid_energy_ratio",
+    "dct_low_energy_ratio",
+    "dct_high_to_low_ratio",
+    "fft_high_energy_ratio",
+    "fft_mid_energy_ratio",
+    "fft_low_energy_ratio",
+    "fft_spectral_centroid",
+    "fft_spectral_spread",
+    "fft_radial_slope",
+    "laplacian_var",
+    "highpass_mean_abs",
+    "highpass_std",
+    "block_dct_high_ratio_mean",
+    "block_dct_high_ratio_std",
+    "block_dct_high_ratio_max",
+    "block_dct_high_ratio_min"
+  ],
+  "train_balancing": {
+    "enabled": true,
+    "method": "downsample_majority_class",
+    "majority_label": 1,
+    "minority_label": 0,
+    "original_train_distribution": {
+      "0": 3500,
+      "1": 20972
+    },
+    "used_train_distribution": {
+      "0": 3500,
+      "1": 3500
+    }
+  },
+  "validation": {
+    "accuracy": 0.5226666666666666,
+    "precision": 0.8262434554973822,
+    "recall": 0.5611111111111111,
+    "f1": 0.6683430386447856,
+    "confusion_matrix": [
+      [
+        219,
+        531
+      ],
+      [
+        1975,
+        2525
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.0998    0.2920    0.1488       750\n           1     0.8262    0.5611    0.6683      4500\n\n    accuracy                         0.5227      5250\n   macro avg     0.4630    0.4266    0.4086      5250\nweighted avg     0.7225    0.5227    0.5941      5250\n",
+    "roc_auc": 0.40387007407407405
+  },
+  "test": {
+    "accuracy": 0.5284924718886983,
+    "precision": 0.831313462168359,
+    "recall": 0.5643762508338893,
+    "f1": 0.672317880794702,
+    "confusion_matrix": [
+      [
+        235,
+        515
+      ],
+      [
+        1959,
+        2538
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.1071    0.3133    0.1596       750\n           1     0.8313    0.5644    0.6723      4497\n\n    accuracy                         0.5285      5247\n   macro avg     0.4692    0.4389    0.4160      5247\nweighted avg     0.7278    0.5285    0.5990      5247\n",
+    "roc_auc": 0.4185236083314803
+  }
+}

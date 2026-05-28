@@ -1,0 +1,20 @@
+{
+  "threshold": 0.5,
+  "video_count": 1050,
+  "accuracy": 0.8504761904761905,
+  "precision": 0.8561840843720039,
+  "recall": 0.9922222222222222,
+  "f1": 0.919197117858981,
+  "confusion_matrix": [
+    [
+      0,
+      150
+    ],
+    [
+      7,
+      893
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n           0     0.0000    0.0000    0.0000       150\n           1     0.8562    0.9922    0.9192       900\n\n    accuracy                         0.8505      1050\n   macro avg     0.4281    0.4961    0.4596      1050\nweighted avg     0.7339    0.8505    0.7879      1050\n",
+  "roc_auc": 0.34282222222222225
+}

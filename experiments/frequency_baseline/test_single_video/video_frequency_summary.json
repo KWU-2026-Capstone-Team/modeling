@@ -1,0 +1,11 @@
+{
+  "video_path": "C:\\Users\\user\\.cache\\kagglehub\\datasets\\xdxd003\\ff-c23\\versions\\1\\FaceForensics++_C23\\DeepFakeDetection\\01_02__meeting_serious__YVGY8LOK.mp4",
+  "frame_count_analyzed": 44,
+  "fps": 24.0,
+  "duration_sec": 43.5,
+  "face_only": true,
+  "aggregate_heuristic_fake_score": 0.16799426078796387,
+  "aggregate_model_fake_score": null,
+  "decision": "REAL/LOW-SUSPICION",
+  "threshold": 0.5
+}

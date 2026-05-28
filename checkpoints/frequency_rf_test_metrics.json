@@ -1,0 +1,57 @@
+{
+  "feature_columns": [
+    "dct_high_energy_ratio",
+    "dct_mid_energy_ratio",
+    "dct_low_energy_ratio",
+    "dct_high_to_low_ratio",
+    "fft_high_energy_ratio",
+    "fft_mid_energy_ratio",
+    "fft_low_energy_ratio",
+    "fft_spectral_centroid",
+    "fft_spectral_spread",
+    "fft_radial_slope",
+    "laplacian_var",
+    "highpass_mean_abs",
+    "highpass_std",
+    "block_dct_high_ratio_mean",
+    "block_dct_high_ratio_std",
+    "block_dct_high_ratio_max",
+    "block_dct_high_ratio_min"
+  ],
+  "validation": {
+    "accuracy": 0.8377142857142857,
+    "precision": 0.8543123543123543,
+    "recall": 0.9773333333333334,
+    "f1": 0.9116915422885572,
+    "confusion_matrix": [
+      [
+        0,
+        750
+      ],
+      [
+        102,
+        4398
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.0000    0.0000    0.0000       750\n           1     0.8543    0.9773    0.9117      4500\n\n    accuracy                         0.8377      5250\n   macro avg     0.4272    0.4887    0.4558      5250\nweighted avg     0.7323    0.8377    0.7814      5250\n",
+    "roc_auc": 0.35170325925925927
+  },
+  "test": {
+    "accuracy": 0.8406708595387841,
+    "precision": 0.8546793257120713,
+    "recall": 0.9808761396486546,
+    "f1": 0.9134396355353075,
+    "confusion_matrix": [
+      [
+        0,
+        750
+      ],
+      [
+        86,
+        4411
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.0000    0.0000    0.0000       750\n           1     0.8547    0.9809    0.9134      4497\n\n    accuracy                         0.8407      5247\n   macro avg     0.4273    0.4904    0.4567      5247\nweighted avg     0.7325    0.8407    0.7829      5247\n",
+    "roc_auc": 0.36742139203913726
+  }
+}
